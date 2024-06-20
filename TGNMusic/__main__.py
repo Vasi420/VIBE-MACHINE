@@ -49,8 +49,8 @@ async def init():
     except:
         pass
     await TGN.decorators()
-    LOGGER("TGNMusic").info(
-        "TGN Music Bot Started Successfully"
+    LOGGER("VibeMachine").info(
+        "VibeMachine Started Successfully"
     )
     await idle()
     await app.stop()
